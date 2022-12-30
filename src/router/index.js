@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import MenuView from '../views/MenuView.vue'
 import DetailMenu from '../views/DetailMenu.vue'
 import BasketView from '../views/BasketsView.vue'
+import OrderSuccess from '../views/OrderSuccess.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/basket',
     name: 'basket',
     component: BasketView
+  },
+  {
+    path: '/my-order',
+    name: 'OrderSuccess',
+    component: OrderSuccess
   },
   {
     path: '/about',

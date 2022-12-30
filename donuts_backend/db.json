@@ -107,41 +107,15 @@
       "image": "Sprice-Bomb.png"
     }
   ],
-  "baskets": [
-    {
-      "quality": "2",
-      "note": "Lorem ipsum dolor sit amet consectetur",
-      "products": {
-        "id": 1,
-        "code_product": "D001",
-        "name": "Bavarian Space Bomb",
-        "price": 16000,
-        "is_ready": true,
-        "image": "Bavarian-Space-Bomb.png"
-      },
-      "id": 1
-    },
-    {
-      "quality": "2",
-      "products": {
-        "id": 3,
-        "code_product": "D003",
-        "name": "Glanced Iced",
-        "price": 12000,
-        "is_ready": true,
-        "image": "Choco-Classic.png"
-      },
-      "id": 2
-    }
-  ],
+  "baskets": [],
   "orders": [
     {
-      "name": "Afif",
-      "noMeja": "3",
+      "name": "Surevans",
+      "phone": "012678109871",
       "baskets": [
         {
-          "sum_orders": "1",
-          "keterangan": "Pedes",
+          "quality": "1",
+          "note": "please give me coin",
           "products": {
             "id": 1,
             "code_product": "D001",
@@ -151,9 +125,17 @@
             "image": "Bavarian-Space-Bomb.png"
           },
           "id": 1
-        },
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "loream",
+      "phone": "012312311",
+      "baskets": [
         {
-          "sum_orders": "1",
+          "quality": "2",
+          "note": "Zumy!!!",
           "products": {
             "id": 2,
             "code_product": "D002",
@@ -165,7 +147,87 @@
           "id": 2
         }
       ],
-      "id": 1
+      "id": 2
+    },
+    {
+      "name": "loream",
+      "phone": "123123123123",
+      "baskets": [
+        {
+          "quality": "2",
+          "note": "wow like a snow",
+          "products": {
+            "id": 4,
+            "code_product": "D005",
+            "name": "Bavarian Oriental",
+            "price": 14000,
+            "is_ready": true,
+            "image": "Bavarian-Oriental.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "lord",
+      "phone": "123123123123123",
+      "baskets": [
+        {
+          "quality": "1",
+          "note": "test",
+          "products": {
+            "id": 2,
+            "code_product": "D002",
+            "name": "Bavarian Choco Bomb",
+            "price": 14000,
+            "is_ready": true,
+            "image": "Bavarian-Choco-Bomb.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Bavarian ",
+      "phone": "123123123",
+      "baskets": [
+        {
+          "quality": "2",
+          "note": "rerum ",
+          "products": {
+            "id": 4,
+            "code_product": "D005",
+            "name": "Bavarian Oriental",
+            "price": 14000,
+            "is_ready": true,
+            "image": "Bavarian-Oriental.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "lore",
+      "phone": "123123",
+      "baskets": [
+        {
+          "quality": "2",
+          "note": "rerum ",
+          "products": {
+            "id": 4,
+            "code_product": "D005",
+            "name": "Bavarian Oriental",
+            "price": 14000,
+            "is_ready": true,
+            "image": "Bavarian-Oriental.png"
+          },
+          "id": 1
+        }
+      ],
+      "id": 6
     }
   ]
 }

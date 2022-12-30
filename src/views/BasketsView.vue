@@ -87,6 +87,45 @@
               </tbody>
             </table>
           </div>
+          <div class="row justify-content-end">
+            <div class="col-md-6">
+              <form v-on:submit.prevent>
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    v-model="order.name"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Phone</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    v-model="order.phone"
+                    placeholder="08xxxxxxxx"
+                  />
+                </div>
+
+                <div class="text-center">
+                  <button
+                    type="submit"
+                    class="btn btn-submit"
+                    @click="Checkout"
+                  >
+                    Submit
+                    <b-icon
+                      class="my-auto"
+                      style="margin-left: 1rem"
+                      icon="cart-plus-fill"
+                    ></b-icon>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -110,6 +149,7 @@ export default {
   data() {
     return {
       baskets: [],
+      order: {},
     };
   },
   methods: {
@@ -136,6 +176,39 @@ export default {
             .catch((error) => console.log(error));
         })
         .catch((err) => console.log(err));
+    },
+    Checkout() {
+      // if input name and phone true
+      if (this.order.name && this.order.phone) {
+        this.order.baskets = this.baskets;
+        axios
+          .post("http://localhost:3000/orders", this.order)
+          // handle success
+          .then(() => {
+            //delete items on basket
+            this.baskets.map(function (item) {
+              return axios
+                .delete("http://localhost:3000/baskets/" + item.id)
+                .catch((error) => console.log(error));
+            });
+            this.$router.push({ path: "/my-order" });
+
+            this.$toast.success("Successfully Order", {
+              type: "success",
+              position: "top",
+              duration: 2000,
+              dismissible: true,
+            });
+          })
+          .catch((err) => console.log(err));
+      } else {
+        this.$toast.error("Sorry you did not enter a name or phone number", {
+          type: "error",
+          position: "top",
+          duration: 2000,
+          dismissible: true,
+        });
+      }
     },
   },
   mounted() {
