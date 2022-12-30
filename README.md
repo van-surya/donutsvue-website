@@ -1,21 +1,16 @@
 # donutsvue-website
+Simple project ordering donuts with vue.js 
 
-## Project setup
+### How to run API
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+You need Json-server for runing API
+- npm install -g json-server
+- json-server --watch db.json
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### How to run Project
+``` 
+run command vue ui
+open host
 
-### Lints and fixes files
-```
-npm run lint
-```
+``` 
