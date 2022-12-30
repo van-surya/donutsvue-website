@@ -60,65 +60,90 @@
     },
     {
       "id": 4,
-      "code_product": "K-04",
-      "name": "Mie Ayam Bakso",
+      "code_product": "D005",
+      "name": "Bavarian Oriental",
       "price": 14000,
       "is_ready": true,
-      "image": "mie-ayam-bakso.jpg"
+      "image": "Bavarian-Oriental.png"
     },
     {
       "id": 5,
-      "code_product": "K-05",
-      "name": "Mie Goreng",
+      "code_product": "D006",
+      "name": "Bavarian Nut's",
       "price": 13000,
       "is_ready": true,
-      "image": "mie-goreng.jpg"
+      "image": "Bavarian-Nut.png"
     },
     {
       "id": 6,
-      "code_product": "K-06",
-      "name": "Bakso",
+      "code_product": "D007",
+      "name": "Bavarian Sweet",
       "price": 10000,
       "is_ready": true,
-      "image": "bakso.jpg"
+      "image": "Bavarian-Sweet.png"
     },
     {
       "id": 7,
-      "code_product": "K-07",
-      "name": "Pangsit 6 pcs",
+      "code_product": "D008",
+      "name": "Bavarian Chips",
       "price": 5000,
       "is_ready": true,
-      "image": "pangsit.jpg"
+      "image": "Bavarian-Chips.png"
     },
     {
       "id": 8,
-      "code_product": "K-08",
-      "name": "Kentang Goreng",
+      "code_product": "D009",
+      "name": "Sunday Light",
       "price": 5000,
       "is_ready": true,
-      "image": "kentang-goreng.jpg"
+      "image": "Sunday-Light.png"
     },
     {
       "id": 9,
-      "code_product": "K-09",
-      "name": "Lontong Opor Ayam",
+      "code_product": "D009",
+      "name": "Sprice Bomb",
       "price": 18000,
       "is_ready": true,
-      "image": "lontong-opor-ayam.jpg"
+      "image": "Sprice-Bomb.png"
     }
   ],
   "baskets": [
     {
-      "sum_orders": "1",
+      "quality": "1",
       "products": {
-        "id": 2,
-        "code_product": "D002",
-        "name": "Bavarian Choco Bomb",
-        "price": 14000,
+        "id": 3,
+        "code_product": "D003",
+        "name": "Glanced Iced",
+        "price": 12000,
         "is_ready": true,
-        "image": "Bavarian-Choco-Bomb.png"
+        "image": "Choco-Classic.png"
       },
       "id": 1
+    },
+    {
+      "quality": "1",
+      "note": "",
+      "products": {
+        "id": 5,
+        "code_product": "D006",
+        "name": "Bavarian Nut's",
+        "price": 13000,
+        "is_ready": true,
+        "image": "Bavarian-Nut.png"
+      },
+      "id": 2
+    },
+    {
+      "quality": "2",
+      "products": {
+        "id": 1,
+        "code_product": "D001",
+        "name": "Bavarian Space Bomb",
+        "price": 16000,
+        "is_ready": true,
+        "image": "Bavarian-Space-Bomb.png"
+      },
+      "id": 3
     }
   ],
   "orders": [

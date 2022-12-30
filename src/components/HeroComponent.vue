@@ -9,7 +9,7 @@
             <span>fresh donuts</span>
             now!
             </p>
-            <button class="btn btn-custom">Order Now !</button>
+            <router-link to="/menus"  class="btn btn-custom">Order Now !</router-link>
         </div>
             <div class="col-md-6 hero-image order-md-2">
                 <img src="../assets/images/hero.png" class="hero-img" alt="hero image"/>

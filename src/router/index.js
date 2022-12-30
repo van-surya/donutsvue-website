@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MenuView from '../views/MenuView.vue'
+import DetailMenu from '../views/DetailMenu.vue'
+import BasketView from '../views/BasketsView.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +17,16 @@ const routes = [
     path: '/menus',
     name: 'menus',
     component: MenuView
+  },
+  {
+    path: '/menus/:id',
+    name: 'detail',
+    component: DetailMenu
+  },
+  {
+    path: '/basket',
+    name: 'basket',
+    component: BasketView
   },
   {
     path: '/about',

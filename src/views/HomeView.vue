@@ -6,10 +6,10 @@
       <div class="best-donuts">
         <h2>Best <strong>Donut's</strong></h2>
         <router-link to="/menus" class="show-all">Show All</router-link>
-        <!-- Foreach in VueJS  -->
         <div class="row mt-5 mb-5" >
-          <!-- Insert to CardProduct  -->
+        <!-- Foreach in VueJS  -->
           <div class="col-md-3" v-for="product in products" :key="product.id">
+          <!-- Insert to CardProduct  -->
             <CardProduct :product="product"/>
           </div>
         </div>
@@ -26,8 +26,8 @@ import Hero from "@/components/HeroComponent.vue";
 import CardProduct from "@/components/CardProduct.vue";
 import Footer from "@/components/FooterComponent.vue";
 
-
 import axios from "axios";
+
 export default {
   name: "HomeView",
   components: {

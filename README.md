@@ -1,4 +1,4 @@
-# donutsvue-website
+# Ordering Donuts Website Vue.js
 Simple project ordering donuts with vue.js 
 
 ### How to run API
