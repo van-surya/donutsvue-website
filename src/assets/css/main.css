@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-brand {
+    color: #6b443d !important;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.router-link-exact-active {
+    color: chocolate !important;
+}
+
+.navbar-orange .nav-link {
+    font-size: 1rem;
+    color: #6b443d;
+    font-weight: 600;
+}
+
+.badge-chocolate {
+    background-color: #6b443d;
+    color: white;
+}
+
+.navbar-toggler {
+    color: #6b443d;
+    border-color: #6b443d;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url(../bars-solid.svg);
+}
+
+
+.jumbotron {
+    background-color: transparent !important;
+    margin-bottom: 0px;
+    padding: 0rem 2rem 0rem 2rem !important;
+}
+
+.hero-lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-lead h1 {
+    font-size: 3rem;
+    color: chocolate;
+    font-weight: 600;
+}
+
+.hero-lead h1 span {
+    color: #6b443d;
+}
+
+.hero-lead p {
+    font-size: 1rem;
+    color: chocolate;
+    text-align: justify;
+}
+
+.hero-lead p span {
+    color: #6b443d;
+    font-weight: 600;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-img {
+    width: 400px;
+    height: 400px;
+}
+
+@media (min-width: 768px) {
+    .hero-img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.btn-custom {
+    width: 150px;
+    background-color: chocolate;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 0px;
+    margin-top: 1rem;
+}
+
+.btn-custom:hover {
+    width: 150px;
+    background-color: #6b443d;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 0px;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: chocolate;
+    font-weight: 600;
+}
+
+.best-donuts h2 strong {
+    color: #6b443d;
+}
+
+.best-donuts .show-all {
+    color: chocolate;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.best-donuts .show-all:hover {
+    color: #6b443d;
+}
+
+.card-menu {
+    border: 2px solid pink;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    border-radius: 25px;
+}
+
+.card-menu h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6b443d;
+}
+
+.card-menu p {
+    color: chocolate;
+}
+
+.btn-add {
+    background-color: chocolate;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 25px;
+    width: 120px;
+}
+
+.btn-add:hover {
+    background-color: #6b443d;
+    color: white;
+}
+
+footer .container {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    color: chocolate;
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: none;
+    color: chocolate !important;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #6b443d !important;
+}

@@ -1,0 +1,158 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "code_product": "D001",
+      "name": "Bavarian Space Bomb",
+      "price": 16000,
+      "is_ready": true,
+      "image": "Bavarian-Space-Bomb.png"
+    },
+    {
+      "id": 2,
+      "code_product": "D002",
+      "name": "Bavarian Choco Bomb",
+      "price": 14000,
+      "is_ready": true,
+      "image": "Bavarian-Choco-Bomb.png"
+    },
+    {
+      "id": 3,
+      "code_product": "D003",
+      "name": "Glanced Iced",
+      "price": 12000,
+      "is_ready": true,
+      "image": "Glanced-Iced.png"
+    },
+    {
+      "id": 4,
+      "code_product": "D003",
+      "name": "Choco Classic",
+      "price": 12000,
+      "is_ready": true,
+      "image": "Choco-Classic.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code_product": "D001",
+      "name": "Bavarian Space Bomb",
+      "price": 16000,
+      "is_ready": true,
+      "image": "Bavarian-Space-Bomb.png"
+    },
+    {
+      "id": 2,
+      "code_product": "D002",
+      "name": "Bavarian Choco Bomb",
+      "price": 14000,
+      "is_ready": true,
+      "image": "Bavarian-Choco-Bomb.png"
+    },
+    {
+      "id": 3,
+      "code_product": "D003",
+      "name": "Glanced Iced",
+      "price": 12000,
+      "is_ready": true,
+      "image": "Choco-Classic.png"
+    },
+    {
+      "id": 4,
+      "code_product": "K-04",
+      "name": "Mie Ayam Bakso",
+      "price": 14000,
+      "is_ready": true,
+      "image": "mie-ayam-bakso.jpg"
+    },
+    {
+      "id": 5,
+      "code_product": "K-05",
+      "name": "Mie Goreng",
+      "price": 13000,
+      "is_ready": true,
+      "image": "mie-goreng.jpg"
+    },
+    {
+      "id": 6,
+      "code_product": "K-06",
+      "name": "Bakso",
+      "price": 10000,
+      "is_ready": true,
+      "image": "bakso.jpg"
+    },
+    {
+      "id": 7,
+      "code_product": "K-07",
+      "name": "Pangsit 6 pcs",
+      "price": 5000,
+      "is_ready": true,
+      "image": "pangsit.jpg"
+    },
+    {
+      "id": 8,
+      "code_product": "K-08",
+      "name": "Kentang Goreng",
+      "price": 5000,
+      "is_ready": true,
+      "image": "kentang-goreng.jpg"
+    },
+    {
+      "id": 9,
+      "code_product": "K-09",
+      "name": "Lontong Opor Ayam",
+      "price": 18000,
+      "is_ready": true,
+      "image": "lontong-opor-ayam.jpg"
+    }
+  ],
+  "baskets": [
+    {
+      "sum_orders": "1",
+      "products": {
+        "id": 2,
+        "code_product": "D002",
+        "name": "Bavarian Choco Bomb",
+        "price": 14000,
+        "is_ready": true,
+        "image": "Bavarian-Choco-Bomb.png"
+      },
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "name": "Afif",
+      "noMeja": "3",
+      "baskets": [
+        {
+          "sum_orders": "1",
+          "keterangan": "Pedes",
+          "products": {
+            "id": 1,
+            "code_product": "D001",
+            "name": "Bavarian Space Bomb",
+            "price": 16000,
+            "is_ready": true,
+            "image": "Bavarian-Space-Bomb.png"
+          },
+          "id": 1
+        },
+        {
+          "sum_orders": "1",
+          "products": {
+            "id": 2,
+            "code_product": "D002",
+            "name": "Bavarian Choco Bomb",
+            "price": 14000,
+            "is_ready": true,
+            "image": "Bavarian-Choco-Bomb.png"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
