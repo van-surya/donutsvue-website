@@ -109,32 +109,8 @@
   ],
   "baskets": [
     {
-      "quality": "1",
-      "products": {
-        "id": 3,
-        "code_product": "D003",
-        "name": "Glanced Iced",
-        "price": 12000,
-        "is_ready": true,
-        "image": "Choco-Classic.png"
-      },
-      "id": 1
-    },
-    {
-      "quality": "1",
-      "note": "",
-      "products": {
-        "id": 5,
-        "code_product": "D006",
-        "name": "Bavarian Nut's",
-        "price": 13000,
-        "is_ready": true,
-        "image": "Bavarian-Nut.png"
-      },
-      "id": 2
-    },
-    {
       "quality": "2",
+      "note": "Lorem ipsum dolor sit amet consectetur",
       "products": {
         "id": 1,
         "code_product": "D001",
@@ -143,7 +119,19 @@
         "is_ready": true,
         "image": "Bavarian-Space-Bomb.png"
       },
-      "id": 3
+      "id": 1
+    },
+    {
+      "quality": "2",
+      "products": {
+        "id": 3,
+        "code_product": "D003",
+        "name": "Glanced Iced",
+        "price": 12000,
+        "is_ready": true,
+        "image": "Choco-Classic.png"
+      },
+      "id": 2
     }
   ],
   "orders": [

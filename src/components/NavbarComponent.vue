@@ -16,10 +16,11 @@
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
-              <router-link class="nav-link" to="/">
+              <router-link class="nav-link" to="/basket">
                 <b-icon-bag class="mr-1"></b-icon-bag>
+                <!-- IF update basket true show update basket else quality -->
                 <span class="badge badge-chocolate my-auto">{{
-                  quality.length
+                  updateBasket ? updateBasket.length : quality.length
                 }}</span>
               </router-link>
             </b-navbar-nav>
@@ -40,6 +41,7 @@ export default {
       quality: [],
     };
   },
+  props: ["updateBasket"],
   methods: {
     setQuality(data) {
       this.quality = data;
