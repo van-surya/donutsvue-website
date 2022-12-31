@@ -3,12 +3,12 @@
     <Navbar />
     <Hero />
     <div class="container">
-      <div class="best-donuts">
+      <div class="best-donuts mt-5 mt-md-0">
         <h2>Best <strong>Donut's</strong></h2>
         <router-link to="/menus" class="show-all">Show All</router-link>
         <div class="row mt-5 mb-5" >
         <!-- Foreach in VueJS  -->
-          <div class="col-md-3" v-for="product in products" :key="product.id">
+          <div class="col-md-3 mb-3" v-for="product in products" :key="product.id">
           <!-- Insert to CardProduct  -->
             <CardProduct :product="product"/>
           </div>

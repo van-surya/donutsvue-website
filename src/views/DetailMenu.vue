@@ -5,7 +5,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb container">
         <li class="breadcrumb-item">
-          <router-link to="/home">Home</router-link>
+          <router-link to="/">Home</router-link>
         </li>
         <li class="breadcrumb-item">
           <router-link to="/menus">Menu</router-link>
